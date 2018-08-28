@@ -9,7 +9,8 @@ def create
   #  req.params['client_secret'] = ENV['FOURSQUARE_SECRET']
     req.params['client_secret'] = 'OWUHU1CDMNK0IOXU3ROQC45OKIUGVVCYCOWL1ZXZJFRTEZUX'
     req.params['grant_type'] = 'authorization_code'
-    req.params['redirect_uri'] = "http://localhost:3000/auth"
+  #  req.params['redirect_uri'] = "http://localhost:3000/auth"
+    req.params['redirect_uri'] = "https://67.205.182.198:49616/auth"
     req.params['code'] = params[:code]
   end
 
